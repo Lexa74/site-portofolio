@@ -1,0 +1,46 @@
+.leftColumn {
+    background-color: #F3F3F3;
+    padding: 24px;
+    width: 40%;
+}
+
+.family {
+    margin-bottom: 2px;
+}
+
+.vocation {
+    color: #525252;
+}
+
+.heading {
+    margin-bottom: 16px;
+}
+
+.about {
+    margin-bottom: 32px;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.contacts__link {
+    color: #525252;
+}
+
+.contacts__heading {
+
+}

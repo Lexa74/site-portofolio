@@ -1,0 +1,13 @@
+.mailIcon {
+    transition: .3s all;
+    fill: #525252;
+}
+
+.mailIcon:hover {
+    fill: black;
+}
+
+.contacts__svg {
+    width: 20px;
+    margin-right: 5px;
+}

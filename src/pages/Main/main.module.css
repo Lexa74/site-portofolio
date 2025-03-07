@@ -1,0 +1,9 @@
+.rightColumn {
+    width: 60%;
+    background-color: #DEDEDE;
+}
+
+.container {
+    display: flex;
+}
+

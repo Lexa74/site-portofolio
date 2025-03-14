@@ -25,13 +25,13 @@ export const LeftColumn = () => {
       <div className={styles.contacts}>
         <h3 className={styles.contacts__heading}>Контакты</h3>
         <div className={styles.contacts__wrapper}>
-          <MailIcon alt="" />
+          <MailIcon />
           <a className={styles.contacts__link} href="#">
             mail
           </a>
         </div>
         <div className={styles.contacts__wrapper}>
-          <TelegramIcon src="/img/telegram-1%201.svg" alt="" />
+          <TelegramIcon color={'gray'} />
           <a className={styles.contacts__link} href="#">
             telegram
           </a>

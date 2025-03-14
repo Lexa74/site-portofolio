@@ -1,7 +1,7 @@
 .leftColumn {
+    composes: paddingAll from '../../main.module.css';
     background-color: #F3F3F3;
-    padding: 24px;
-    width: 40%;
+    max-width: 340px;
 }
 
 .family {

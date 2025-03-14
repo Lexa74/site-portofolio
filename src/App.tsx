@@ -10,8 +10,8 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Main />} />
+            <Route path="/about" element={<About />} />
           </Route>
-          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>

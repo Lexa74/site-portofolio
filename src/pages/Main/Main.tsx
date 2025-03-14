@@ -1,14 +1,13 @@
 import styles from './main.module.css';
 import { LeftColumn } from './components/LeftColumn/LeftColumn.tsx';
+import { RightColumns } from './components/RightColumn/RightColumns.tsx';
 
 export const Main = () => {
   return (
-    <div className={'center'}>
+    <div className={styles.content}>
       <div className={styles.container}>
         <LeftColumn />
-        <div className={styles.rightColumn}>
-          <h2>Опыт работы</h2>
-        </div>
+        <RightColumns />
       </div>
     </div>
   );

@@ -1,7 +1,4 @@
-.rightColumn {
-    composes: paddingAll from '../../main.module.css';
-    flex-grow: 1;
-}
+
 
 .title {
     font-size: 24px;

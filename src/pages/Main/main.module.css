@@ -1,12 +1,3 @@
-.paddingAll {
-    padding: 24px;
-}
 
-.container {
-    display: flex;
-}
 
-.content {
-    composes: center from '../../UI/sharedStyle.module.css';
-}
 

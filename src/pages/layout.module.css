@@ -28,11 +28,25 @@
     bottom: 0;
     left: 0;
     width: 0;
-    height: 1px;
+    height: 2px;
     background-color: black;
     transition: .2s all;
 }
 
 .nav__link:hover::after {
     width: 100%;
+}
+
+
+.container {
+    display: flex;
+}
+
+.content {
+    composes: center from '../UI/sharedStyle.module.css';
+}
+
+.rightColumn {
+    padding: 24px;
+    flex-grow: 1;
 }

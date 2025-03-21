@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: max-content;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.card {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover .card__image {
+    transform: scale(1.1);
+}
+
+.card:hover .wrapperImage {
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card__image {
+    transition: .3s all;
+    display: block;
+    /*box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.5);*/
+}
+
+.card__name {
+    margin: 6px 0;
+    font-size: 22px;
+}
+
+.wrapperImage {
+    overflow: hidden;
+    transition: .3s all;
+}
+
